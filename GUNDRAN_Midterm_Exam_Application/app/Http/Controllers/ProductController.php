@@ -25,3 +25,7 @@ class ProductController extends Controller
                 "author" => "Yoshihiro Togashi"
             ]
         ];
+
+        return view('products', compact('products'));
+    }
+}
